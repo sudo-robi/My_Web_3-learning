@@ -2,7 +2,9 @@ I learnt about various data types which include uint, bool, address, string and 
 
 
 // SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.0;
+
 contract MyFirstContract {
 
     string public mood = "I am happy";
@@ -19,6 +21,7 @@ contract MyFirstContract {
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
+
 contract myFirstContract {
 
     string public mood="I am happy";
