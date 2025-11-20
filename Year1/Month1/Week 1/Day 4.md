@@ -50,11 +50,11 @@ NOT inside the same contract unless you use this.functionName()
 
 
 
-// SPDX-License-Identifier: MIT
+    // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+    pragma solidity ^0.8.0;
 
-contract VisibilityExample {
+    contract VisibilityExample {
 
     uint public number = 5;
 
@@ -78,4 +78,4 @@ contract VisibilityExample {
         number = _num;
     }
     
-}
+     }
