@@ -7,9 +7,9 @@ Pure doesn't allow read or write operation on the contract.
 Payable is used for functions that are allowed to receive ETH.
 Without payable, a function cannot accept any cryptocurrency sent to it.
 
-// SPDX-License-Identifier: MIT
+    // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+    pragma solidity ^0.8.0;
 
     contract VisibilityExample {
     uint public number = 5;
@@ -30,4 +30,4 @@ pragma solidity ^0.8.0;
 
     function deposit() public payable {
     }
-}
+    }
