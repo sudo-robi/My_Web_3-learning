@@ -28,7 +28,7 @@ Today I looked at global object like msg.value, msg.sender, block.timestamp, msg
 
 My Reflection from Day 1 to Day6.
 
-Over the past six days, I have been steadily exploring Solidity and its core concepts. I started with the basic data types —uint, bool, address, string, and bytes— and practiced creating state variables in Remix. I learned how visibility keywords like public, private, internal, and external affect access to functions and variables, and I experimented with writing simple getter and setter functions.
+Over the past six days, I have been steadily exploring Solidity and its core concepts. I started with the basic data types (uint, bool, address, string, and bytes) and practiced creating state variables in Remix. I learned how visibility keywords like public, private, internal, and external affect access to functions and variables, and I experimented with writing simple getter and setter functions.
 
 I also explored function modifiers like view, pure, and payable, and practiced deploying contracts to observe their behavior. Day 6 focused on understanding Ethereum-specific global variables such as msg.sender, msg.value, msg.data, tx.origin, and block.timestamp. I understood msg.sender and msg.value clearly, but block.timestamp was a bit tricky, so I plan to review it tomorrow.
 
